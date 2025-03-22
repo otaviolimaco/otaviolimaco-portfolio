@@ -1,0 +1,29 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #111;
+    color: #fff;
+    bottom: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links a {
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.links a:hover {
+    color: #311d68;
+}
+
+#name {
+    color: #311d68;
+}

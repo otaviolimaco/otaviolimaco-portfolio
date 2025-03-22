@@ -1,0 +1,28 @@
+.input {
+    height: 50px;
+    width: 500px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #404040;
+    color: #f2f2f2;
+}
+
+.input::placeholder {
+    color: #f2f2f2;
+}
+
+.input_phase {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_phase p {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}

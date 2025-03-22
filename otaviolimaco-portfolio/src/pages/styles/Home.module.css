@@ -1,0 +1,49 @@
+.picture_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.title_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.title {
+    font-size: 14px;
+    color: #f2f2f2;
+}
+
+.title h1 {
+    font-weight: 800;
+    color: #f2f2f2;
+}
+
+.typical {
+    font-size: 16px;
+}
+
+#name {
+    color: #311d68;
+}
+
+.picture img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+}
+
+.illustration img {
+    width: 500px;
+}
+
+.typing {
+    display: inline-flex;
+    align-items: center;
+}

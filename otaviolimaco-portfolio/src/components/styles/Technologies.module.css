@@ -1,0 +1,26 @@
+.technologies {
+    display: flex;
+    gap: 120px;
+    color: #fff;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #8065c9;
+}
+
+.technologies a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.technologies a:hover {
+    color: #311d68;
+}
+
+.skill {
+    display: flex;
+    gap: 12px;
+}

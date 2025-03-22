@@ -1,0 +1,66 @@
+.talk_to_me__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: -70px;
+    text-align: center;
+}
+
+.input {
+    height: 50px;
+    width: 500px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #404040;
+    color: #f2f2f2;
+}
+
+.ttm_title {
+    color: #f2f2f2;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.span {
+    color: #311d68;
+}
+
+.input::placeholder {
+    color: #f2f2f2;
+}
+
+.input_phase {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_phase p {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.button {
+    margin-top: 36px;
+    margin-bottom: 12px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    color: #f2f2f2;
+    background-color: #30478C;
+    cursor: pointer;
+    transition: all 0.5s;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #30348C;
+}
