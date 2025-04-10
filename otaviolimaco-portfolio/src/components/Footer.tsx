@@ -7,7 +7,7 @@ function Footer() {
             <p>© {new Date().getFullYear()} <span id={styles.name}>Otavio Lima</span>. Todos os direitos reservados.</p>
             <div className={styles.links}>
                 <a href="https://github.com/otaviolimaco//" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                <a href="https://www.instagram.com/limascc_/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="https://www.instagram.com/limasc7/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             </div>
         </footer>
     );
